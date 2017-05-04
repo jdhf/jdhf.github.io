@@ -1,1 +1,0 @@
-jonathan@ideapad:style$ cp uvala_sumratin.jpg logo.jpg; mogrify -crop 640x240+0+120 -scale 150% logo.jpg

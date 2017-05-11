@@ -105,9 +105,10 @@ ol li
 
 #header
 { background: transparent url(logo.jpg) no-repeat;
-  margin-left: 211.75px;
-  right: auto;
-  width: 928px;}
+  margin-left: auto;
+  margin-right: auto; 
+  width: 928px;
+  margin: auto;}
 #logo
 { width: 840px;
   position: relative;

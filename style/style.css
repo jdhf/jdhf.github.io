@@ -234,7 +234,7 @@ ul#menu li a:hover
   padding: 20px 0 5px 0;
   text-align: center; 
   background: transparent;
-  color: #EEF3CD;
+  color: #0033CC;
   text-transform: uppercase;
   letter-spacing: 0.1em;}
 
@@ -242,7 +242,7 @@ ul#menu li a:hover
 { padding: 0;}
 
 #footer a, #footer a:hover
-{ color: #EEF3CD;
+{ color: #0033CC;
   text-decoration: none;}
 
 #footer a:hover

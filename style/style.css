@@ -105,8 +105,6 @@ ol li
 
 #header
 { background: transparent url(logo.jpg) no-repeat;
-  margin-left: auto;
-  margin-right: auto; 
   width: 928px;
   margin: auto;}
 #logo
@@ -256,15 +254,12 @@ ul#menu li a:hover
   
 .form_settings
 { margin: 15px 0 0 0;}
-
 .form_settings p
 { padding: 0 0 4px 0;}
-
 .form_settings span
 { float: left; 
   width: 200px; 
   text-align: left;}
-  
 .form_settings input, .form_settings textarea
 { padding: 5px; 
   width: 299px; 
@@ -272,7 +267,6 @@ ul#menu li a:hover
   border: 1px solid #E5E5DB; 
   background: #FFF; 
   color: #47433F;}
-  
 .form_settings .submit
 { font: 100% arial; 
   border: 0; 
@@ -283,14 +277,11 @@ ul#menu li a:hover
   cursor: pointer; 
   background: #3B3B3B; 
   color: #FFF;}
-
 .form_settings textarea, .form_settings select
 { font: 100% arial; 
   width: 299px;}
-
 .form_settings select
 { width: 310px;}
-
 .form_settings .checkbox
 { margin: 4px 0; 
   padding: 0; 

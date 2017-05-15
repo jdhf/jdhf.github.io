@@ -11,25 +11,9 @@
 
 <body>
   <div id="main"> <!-- 1.1 -->
-    <div id="header"> <!-- 2.1 -->
 
-      <div id="logo"> <!-- 3.1 -->
-        <div id="logo_text"> <!-- 4.1 -->
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">Homepage of<span class="logo_colour"> Jonathan David</span></a></h1>
-        </div>               <!-- 4.2 -->
-      </div>          <!-- 3.2 -->
-
-      <div id="menubar"> <!-- 5.1 -->
-        <ul id="menu">
-          <li>                 <a href="index.html"><strong>Home</strong></a></li>
-          <li>                 <a href="research.html"><strong>Research</strong></a></li>
-          <li class="selected"><a href="cv.html"><strong>CV</strong></a></li>
-          <li>                 <a href="contact.html"><strong>Contact me</strong></a></li>
-        </ul>
-      </div>             <!-- 5.2 -->
-
-    </div> <!-- 2.2 -->
+   <div w3-include-html="header.html"></div>
+   <script> w3.includeHTML(); </script>
   
    <div id="site_content"> <!-- 6.1 -->
 
@@ -202,12 +186,9 @@ Brazil. </td><td><a href="pdf/cgsfgs_8th_JPAS.pdf">PDF</a </td></tr>
    																				    
    </table>																 
 
+   <div w3-include-html="footer.html"></div>
+   <script> w3.includeHTML(); </script>
                                                                                                                                                                 
-     <div id="footer"> <!-- 9.1 -->
-      <p><a href="index.html">Home</a> | <a href="research.html">Research</a> | <a href="cv.html">CV</a> | <a href="contact.html">Contact me</a></p>
-     </div>            <!-- 9.2 -->
- 
-   </div>   <!-- 8.2 -->
    </div>   <!-- 6.2 -->
 
 </body>

@@ -105,8 +105,11 @@ ol li
 
 #header
 { background: transparent url(logo.jpg) no-repeat;
+  margin-left: auto;
+  margin-right: auto;
   width: 928px;
-  margin: auto;}
+  <!-- margin: auto; -->
+  }
 #logo
 { width: 840px;
   position: relative;
@@ -130,9 +133,9 @@ ol li
   border: 0;}
 
 #logo_text h1 a .logo_colour
-{ color: #FF7F00;}
+{ color: #336699;}
 #logo_text a:hover .logo_colour
-{ color: #00AA00;}
+{ color: #ffff00;}
 
 #logo_text h2
 { font-size: 120%;

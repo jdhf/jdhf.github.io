@@ -41,12 +41,10 @@ h6
 
 a, a:hover
 { border-bottom: 1px dotted;
-  color: #635B53;
   text-decoration: none;}
-
 a:hover
 { border-bottom: 1px solid;
-  color: #88CC00;}
+  color: #D1FF0F;}
 
 img
 { border: 0px; 
@@ -135,7 +133,7 @@ ol li
 #logo_text h1 a .logo_colour
 { color: #336699;}
 #logo_text a:hover .logo_colour
-{ color: #ffff00;}
+{ color: #FFFF94;}
 
 #logo_text h2
 { font-size: 120%;

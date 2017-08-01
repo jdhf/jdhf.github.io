@@ -79,8 +79,14 @@
         code identifies different time periods. 
 
         <br> <font color="blue">(1)</font> Time series of the S&amp;P500. <br>
-        <font color="blue">(2)</font> S&amp;P500 10yr return (<i>R<sub>10</sub></i>) vs. <i>CAPE</i>.  <br>
-        <font color="blue">(3)</font> <i>R<sub>10</sub></i> vs. <i>CAPE</i> sequences re-shifted to <i>R<sub>10</sub></i>=0 and <i>CAPE</i>=1.2.  <br>
+        <font color="blue">(2)</font> S&amp;P500 10yr return (<i>R<sub>10</sub></i>) vs. <i>CAPE</i>. Linear fits are shown for each period.
+
+        Linear fits are of the form <i>R<sub>10</sub></i> = &alpha;
+        log( <i>CAPE</i> / <i>CAPE<sub>eq</sub></i> ) in which &alpha;
+        is fixed to &alpha;=&minus;35 and <i>CAPE<sub>eq</sub></i> is fitted
+        for each period.
+
+        <br> <font color="blue">(3)</font> <i>R<sub>10</sub></i> vs. <i>CAPE</i> sequences re-shifted to <i>R<sub>10</sub></i>=0 and <i>CAPE</i>=1.2.  <br>
         <font color="blue">(4)</font> Residuals from the linear fits of <i>R<sub>10</sub></i> vs. <i>CAPE</i>.  <br>
         <font color="blue">(5)</font> Observed and predicted <i>R<sub>10</sub></i> derived from the <i>CAPE</i>. 
         </strong> </caption>

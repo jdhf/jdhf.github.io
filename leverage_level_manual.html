@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>JDHF Other interests</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="icon" type="image/jpg" href="images/head.jpg" />
+  <link rel="stylesheet" type="text/css" href="style/style_manual.css" />
+</head>
+
+<script src="lib/w3.js"></script>
+
+<body>
+  <div id="main">
+
+    <div w3-include-html="header.html"></div>
+    <script> w3.includeHTML(); </script>
+
+    <div id="site_content">
+
+        <div w3-include-html="sidebar.html"></div>
+        <script> w3.includeHTML(); </script>
+ 
+        <div id="content">
+
+        <h1 align="center">Level of private leverage by countries</h1>
+
+        <div class="slideshow-container">
+
+         <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <center><img src="images/ldebt-to-gdp_countries.jpg" style="width:50%"></center>
+          <caption>The historical evolution of the private debt-to-DGP ratio from 2000 to June 2017. Available countries are clustered in three groups of <font color="blue">low</font> debt ratio. The whole data set was extracted from the <a href="http://www.bis.org/statistics/c_gaps.htm?m=6%7C347">BIS database</a>.</caption>
+         </div>
+
+         <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <center><img src="images/mdebt-to-gdp_countries.jpg" style="width:50%"></center>
+          <caption> The historical evolution of the private debt-to-DGP ratio from 2000 to June 2017. Available countries are clustered in three groups of <font color="blue">mid.</font> debt ratio. The whole data set was extracted from the <a href="http://www.bis.org/statistics/c_gaps.htm?m=6%7C347">BIS database</a>.</caption>
+         </div>
+
+         <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <center><img src="images/hdebt-to-gdp_countries.jpg" style="width:50%"></center>
+          <caption>The historical evolution of the private debt-to-DGP ratio from 2000 to June 2017. Available countries are clustered in three groups of <font color="blue">high</font> debt ratio. The whole data set was extracted from the <a href="http://www.bis.org/statistics/c_gaps.htm?m=6%7C347">BIS database</a>.</caption>
+         </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10096;</a>
+        <a class="next" onclick="plusSlides(1)">&#10097;</a>       
+
+        </div>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script src="lib/slideloop_manual.js"></script>
+
+        </div>
+    </div>
+
+    <div w3-include-html="footer.html"></div>
+    <script> w3.includeHTML(); </script>
+
+  </div>
+</body>
+</html>

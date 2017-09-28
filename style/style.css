@@ -44,7 +44,7 @@ a, a:hover
   text-decoration: none;}
 a:hover
 { border-bottom: 1px solid;
-  color: #D1FF0F;}
+  color: #FFD600;}
 
 img
 { border: 0px; 
@@ -133,7 +133,7 @@ ol li
 #logo_text h1 a .logo_colour
 { color: #336699;}
 #logo_text a:hover .logo_colour
-{ color: #FFFF94;}
+{ color: #ffff33;}
 
 #logo_text h2
 { font-size: 120%;
@@ -177,10 +177,10 @@ ul#menu li.selected
 { margin: 7px 0 0 0;}
 
 ul#menu li.selected a, ul#menu li.selected a:hover
-{ color: #00C6EF;}
+{ color: #ffcc00;}
 
 ul#menu li a:hover
-{ color: #00C6EF;}
+{ color: #ffcc00;}
 
 #site_content
 { width: 858px;
